@@ -1,0 +1,30 @@
+body {
+    padding-top: 76px;
+}
+
+.plan-list li + li {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.plan-list li {
+    padding: 1rem;
+}
+
+#home-quote {
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    #home-quote .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    body {
+        padding-top: 0px;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+}
